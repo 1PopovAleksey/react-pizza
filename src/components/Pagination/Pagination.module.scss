@@ -1,0 +1,43 @@
+.root {
+  li {
+    display: inline-flex;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+
+    &:global {
+      &.selected {
+        a {
+          background-color: #fe5f1e;
+          color: #fff;
+        }
+      }
+    }
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      padding: 10px;
+      border-radius: 30px;
+      border: 1px solid #fe5f1e;
+      cursor: pointer;
+      color: #fe5f1e;
+      transition: color .3s ease, background-color .3s ease;
+
+      &:hover {
+        background-color: #fe5f1e;
+        color: #fff;
+      }
+    }
+  }
+
+  //:global {
+  //  .previous {
+  //
+  //  }
+  //}
+}

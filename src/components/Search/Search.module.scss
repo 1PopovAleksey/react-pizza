@@ -6,14 +6,12 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 10px 14px 10px 42px;
-  width: 300px;
+  width: 350px;
   height: 48px;
   font-size: 16px;
-  transition: width .3s ease;
 
   &:focus {
     border: 1px solid rgba(0, 0, 0, 0.2);
-    width: 350px;
   }
 }
 

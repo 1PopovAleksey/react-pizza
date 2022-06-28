@@ -338,20 +338,22 @@ body {
   }
 
   &--empty {
+    padding: 100px;
     margin: 0 auto;
-    width: 560px;
+    width: 620px;
     text-align: center;
 
     h2 {
-      font-size: 32px;
-      margin-bottom: 10px;
+      font-size: 36px;
+      margin-bottom: 15px;
     }
 
     p {
-      font-size: 18px;
+      font-size: 16px;
       line-height: 145.4%;
       letter-spacing: 0.01em;
       color: #777777;
+      margin-bottom: 30px;
     }
 
     icon {
